@@ -5,7 +5,7 @@
         <img src="/img/hashtables-icon.png" class="logo" /> Hash Tables
       </router-link>
       <ul v-if="!isAuthenticated" class="nav navbar-nav pull-xs-right">
-        <li class="nav-item float-right">
+        <li class="nav-item">
           <router-link
             class="nav-link"
             active-class="active"
@@ -15,7 +15,7 @@
             Home
           </router-link>
         </li>
-        <li class="nav-item float-right">
+        <li class="nav-item">
           <router-link
             class="nav-link"
             active-class="active"
@@ -25,7 +25,7 @@
             <i class="ion-compose"></i>Sign in
           </router-link>
         </li>
-        <li class="nav-item float-right">
+        <li class="nav-item">
           <router-link
             class="nav-link"
             active-class="active"
