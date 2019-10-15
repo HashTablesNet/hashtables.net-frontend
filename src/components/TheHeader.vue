@@ -1,11 +1,11 @@
 <template>
-  <nav class="navbar navbar-light">
+  <nav class="navbar navbar-dark">
     <div class="container">
       <router-link class="navbar-brand" :to="{ name: 'home' }">
-        conduit
+        <img src="/img/hashtables-icon.png" class="logo" /> Hash Tables
       </router-link>
       <ul v-if="!isAuthenticated" class="nav navbar-nav pull-xs-right">
-        <li class="nav-item">
+        <li class="nav-item float-right">
           <router-link
             class="nav-link"
             active-class="active"
@@ -15,7 +15,7 @@
             Home
           </router-link>
         </li>
-        <li class="nav-item">
+        <li class="nav-item float-right">
           <router-link
             class="nav-link"
             active-class="active"
@@ -25,7 +25,7 @@
             <i class="ion-compose"></i>Sign in
           </router-link>
         </li>
-        <li class="nav-item">
+        <li class="nav-item float-right">
           <router-link
             class="nav-link"
             active-class="active"
