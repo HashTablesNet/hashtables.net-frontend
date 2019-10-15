@@ -1,8 +1,8 @@
 <template>
-  <nav class="navbar navbar-light">
+  <nav class="navbar navbar-dark">
     <div class="container">
       <router-link class="navbar-brand" :to="{ name: 'home' }">
-        conduit
+        <img src="/img/hashtables-icon.png" class="logo" /> Hash Tables
       </router-link>
       <ul v-if="!isAuthenticated" class="nav navbar-nav pull-xs-right">
         <li class="nav-item">
